@@ -6,8 +6,21 @@ body{
     text-align: center;
     font-size: 50px;
 }
-.navbar{
-    text-align: center;
-    font-size: 40px;
-    color: #020826;
+.know-more-info{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #716040;
+    border-radius: 50%;
+    height: 55px;
+}
+/* Mobile device */
+@media screen and (max-width:500px){
+    .heading{
+        font-size: 35px;
+    }
+    .know-more-info{
+        height: 30px;
+        width: 30px;
+    }
 }
