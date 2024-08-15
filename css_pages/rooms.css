@@ -68,7 +68,7 @@ header h1 {
 
 .card {
   background-color: #fffffe;
-  height: 350px;
+  height: auto;
   width: 250px;
   padding: 20px;
   margin: 25px 20px;
@@ -76,7 +76,7 @@ header h1 {
 }
 
 .p1 {
-  height: 37px;
+  height:auto;
   text-align: center;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
