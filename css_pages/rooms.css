@@ -47,7 +47,7 @@ header h1 {
 }
 
 /*cards section*/
-.cards-container-section{
+.cards-container-section {
   margin: 0;
   width: 100%;
   padding: 50px 0px;
@@ -72,6 +72,7 @@ header h1 {
   width: 250px;
   padding: 20px;
   margin: 25px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .p1 {
