@@ -1,0 +1,134 @@
+.body{
+    background-color: #fef6e4;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .dancing-script{
+    font-family: "dancing script",cursive;
+  }
+  .bg-light{
+  
+    background-color: #fef6e4;
+  }
+  .pg-primary{
+    background-color:#f582ae ;
+  }
+  .bg-secondary{
+    background-color: #8bd3dd;
+  }
+  .text-primary{
+    background-color:#f582ae ;
+  }
+  .text-secondary{
+    background-color: #8bd3dd;
+  }
+  .text-dark{
+    color: #001858;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .btn{
+  
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    cursor:pointer;
+    box-shadow: 0 15px 15px #f3d2c1;
+    color: #001858;
+  }
+  .btn-primary{
+    background-color: #f582ae;
+    color: #001858;
+  }
+  .btn-secondary{
+    background-color: #8bd3dd;
+    color: #001858;
+  }
+  .no-underline{
+    text-decoration: none;
+  }
+  .color{
+    color: #001858;
+  }
+  .no-underline{
+    text-decoration: none;
+  }
+  .fs-50{
+    font-size: 50px;
+  }
+  .menu-card{
+    background-color: #fff;
+    width:250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius:10px;
+    box-shadow:-5px 5px  10px 1px  #010d2c;
+    border: 1px solid rgb(18, 8, 10);
+    
+  }
+  .menu-card:hover{
+    transition: 0.5s;
+    border-radius: 25px;
+    cursor: pointer;
+  
+  }
+  .menu-icon{
+    height: 100px;
+  }
+  
+  .subtitle-highlight{
+    background-color: #8bd3dd;
+    font-weight: bold;
+    padding: 2px 1px;
+    border-radius: 10px;
+  }
+  .why-choose-us-heading{
+    margin top: 70px;
+  }
+  .why-choose-us-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f4ef;
+    margin: 20px 0px;
+    padding: 20px;
+    }
+  .why-choose-us-card{
+    background-color: #fff;
+    width: 250px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px 3px black
+  }
+  .why-choose-us-img{
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+  }
+  .header-section{
+    display: flex;
+  }
+  .header-img-container{
+    width: 50%;
+  }
+  .header-description-container{
+    width: 50%;
+    padding: 20px;
+  }
+  .header-img{
+     height: 250px;
+     border: 10px solid #716040;
+     display: block;
+     margin: 20px auto;
+     
+  }
+  .menu-card{
+    background-color: #fff;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  
