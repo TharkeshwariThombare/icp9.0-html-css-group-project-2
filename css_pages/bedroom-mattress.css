@@ -84,3 +84,9 @@ body {
     border-radius: 50px;
     border: 2px solid #716040;
 }
+.wallpaper:hover{
+    height: 500px;
+    width: 1000px;
+    margin-left: 250px;
+    transition: 0.5s;
+}
