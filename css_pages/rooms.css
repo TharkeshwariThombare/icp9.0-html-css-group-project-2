@@ -14,6 +14,7 @@ header h1 {
   text-transform: uppercase;
 }
 
+/*help button*/
 .help-button {
   position: fixed;
   bottom: 20px;
@@ -45,31 +46,32 @@ header h1 {
   font-size: 12px;
 }
 
-/*living cards*/
-.living-room {
+/*cards section*/
+.cards-container-section{
   margin: 0;
   width: 100%;
   padding: 50px 0px;
 }
 
-.living-cards-container {
+.cards-container {
   background-color: #8c7851;
-  height: 1750px;
+  height: auto;
   width: 1200px;
   display: block;
   margin: auto;
   padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.living-card {
+.card {
   background-color: #fffffe;
   height: 350px;
   width: 250px;
   padding: 20px;
-  margin: 5px 20px;
+  margin: 25px 20px;
 }
 
 .p1 {
@@ -85,7 +87,7 @@ header h1 {
   font-weight: 500;
 }
 
-.living-card img {
+.card img {
   display: block;
   margin: auto;
   margin-top: 5px;
