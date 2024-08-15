@@ -1,0 +1,14 @@
+
+body{
+    background-color: #eaddcf;
+    margin: 0px;
+    padding: 0px;
+}
+.page-heading{
+    text-align: center;
+    background-color: #8c7851;
+    color: black;
+    padding: 16px;
+   
+    width: 100%;
+}
