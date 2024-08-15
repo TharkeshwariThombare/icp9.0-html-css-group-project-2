@@ -1,12 +1,20 @@
-body{
-    background-color:#f9f4ef;
+body {
+    background-color: #f9f4ef;
 }
-.heading{
+
+.no-underline {
+    text-decoration: none;
+    color: #020826;
+    font-size: 30px;
+}
+
+.heading {
     color: #020826;
     text-align: center;
     font-size: 50px;
 }
-.know-more-info{
+
+.know-more-info {
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -14,13 +22,55 @@ body{
     border-radius: 50%;
     height: 55px;
 }
+
 /* Mobile device */
-@media screen and (max-width:500px){
-    .heading{
+@media screen and (max-width:500px) {
+    .heading {
         font-size: 35px;
     }
-    .know-more-info{
+
+    .know-more-info {
         height: 30px;
         width: 30px;
     }
+
+    .main-btn1 {
+        margin-left: 0px;
+    }
+
+    .main-btn2 {
+        margin-right: 60px;
+        margin-top: -40px;
+    }
+
+    .main-btn {
+        font-size: 10px;
+        padding: 4px 10px;
+        display: block;
+        margin: auto;
+    }
+}
+
+.main-btn {
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: #f9f4ef;
+}
+
+.main-btn:hover {
+    box-shadow: 0 0 10px 2px #0e172c;
+}
+
+.main-btn1 {
+    margin-left: 150px;
+}
+
+.main-btn2 {
+    margin-right: 150px;
+    margin-top: -60px;
 }
