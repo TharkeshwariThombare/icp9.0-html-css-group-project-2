@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4ef;
+  }
+
+.header{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #020826;
+    margin: 50px auto;
+    font-family: "Montserrat", sans-serif
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    color: #020826;
+    margin: 50px auto;
+    font-family: "Montserrat", sans-serif
+}
+
+.product-card{
+    width: 250px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 5px double #020826;
+    margin: 20px;
+    box-shadow: 10px 10px 30px 5px #fffffe;
+    text-align: center;
+}
+
+
+
+
+
