@@ -64,15 +64,18 @@ header p {
 }
 
 .all-mattress-card:hover {
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 6px 10px#8c7851;
 }
 
 .all-mattress-card img {
     height: 185px;
     width: 190px;
-    border: 1px solid black;
+    border: 2px solid black;
     display: block;
     margin: auto;
+}
+.all-mattress-card img:hover{
+    box-shadow: 10px 6px 10px#8c7851;
 }
 
 .all-mattress-card p {
