@@ -130,5 +130,20 @@
     padding: 10px;
     margin: 10px;
   }
+  .btn {
+    height: 45px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    background-color: #020826;
+    color: #fffffe;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
+      box-shadow 0.3s ease;
   
-  
+  }
