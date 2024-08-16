@@ -23,7 +23,7 @@ body {
     border-radius: 50%;
     height: 55px;
 }
-.main-btn {
+.main {
     display: block;
     margin: 10px auto;
     border-radius: 20px;
@@ -31,20 +31,15 @@ body {
     border: none;
     cursor: pointer;
     font-size: 30px;
-    background-color: #f9f4ef;
+    background-color: #eaddcf;
 }
-
-.main-btn:hover {
+.text-center{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.text-center:hover {
     box-shadow: 0 0 10px 2px #0e172c;
-}
-
-.main-btn1 {
-    margin-left: 150px;
-}
-
-.main-btn2 {
-    margin-right: 150px;
-    margin-top: -60px;
 }
 .wallpaper{
     width: 1500px;
