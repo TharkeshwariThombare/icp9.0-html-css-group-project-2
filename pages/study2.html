@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>study Furniture</title>
+    <link rel="icon" href="./../images/study3.jpg" />
+    
+  </head>
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f4ef;
+}
+
+a {
+  text-decoration: none;
+}
+
+/header/
+header h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+header p {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  bottom: 30px;
+}
+
+/all furniture/
+.all-furniture {
+  margin: 0;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.all-furniture h3 {
+  font-size: 33px;
+  text-align: center;
+  padding-top: 10px;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+}
+
+.all-furniture-container {
+  display: block;
+  margin: auto;
+  background-color: #fffffe;
+  height: 750px;
+  width: 1100px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.all-furniture-card {
+  background-color: #eaddcf;
+  height: 300px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 0px 0px 50px 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.all-furniture-card:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.all-furniture-card img {
+  height: 120px;
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  width: 150;
+  
+}
+
+.all-furniture-card p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/button/
+.btn {
+  height: 45px;
+  width: 150px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  text-transform: capitalize;
+  background-color: #8c7851;
+  color: #fffffe;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #705a39;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  font-size: 13px;
+  transform: translateY(2px) scale(0.98);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.center{
+  text-align: center;
+}
+.heading1{
+color: #f25042;
+}
+.heading2{
+  color: #020826;
+}
+  </style>
+  <body>
+    <header>
+      <h1 class="center">Urbanfry Home Kim Sensory Kids Table</h1><br><br>
+      <p><i class="heading">Study group learning in the house</p></i><br>
+      <h2 class="center heading2">Buy study room furniture online that will create an attractive and enjoyable environment in the claassroomby its detailed designs, styles and sizes</h2>
+      
+    </header>
+
+    <section class="all-furniture">
+      <h3 class="heading1">all Furniture</h3>
+      <div class="all-furniture-container">
+        <div class="all-furniture-card">
+            <img src="./../images/colorful classroom learner.jpg" alt="image">
+            <p>A Colorful and Playful Classroom for Learners</p><br>***<br>price:50,999.00/-<br>
+            <a href="./living.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/classroom chairs.jpg" height="120" alt="image">
+            <p>A classroom and wall above the desks and chairs </p><br>***<br>price:67,999.00/-<br>
+            <a href="./bed.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/room33.jpg" alt="image">
+            <p>table with a toy house </p><br>***<br>price:100,999.00<br>
+            <a href="./dining.html"><button class="btn">by now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/playful furniture.avif" alt="image">
+            <p>Colorful Playful Furniture</p><br>
+            ***<br>
+            price:89,999.00<br>
+            <a href="./study.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/room1.jpg" alt="image">
+            <p>classroom with many desk</p><br>
+            ****<br>prices:89,999.00/-<br>
+            <a href="./outdoor.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/room with table.jpg" alt="image">
+            <p>room with tables and chairs</p><br>
+            ****<br>price:98,999.00/-<br>
+            <a href="./lightning.html"><button class="btn">buy now</button></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
