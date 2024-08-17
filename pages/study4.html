@@ -21,24 +21,9 @@ a {
 /header/
 header h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-}
-
-header p {
-  text-align: center;
-  font-size: 17px;
-  font-family: "Montserrat", sans-serif;
-  position: relative;
-  bottom: 30px;
-}
-
-/all furniture/
-.all-furniture {
-  margin: 0;
-  width: 100%;
-  border-top: 1px solid black;
 }
 
 .all-furniture h3 {
@@ -53,43 +38,49 @@ header p {
   display: block;
   margin: auto;
   background-color: #fffffe;
-  height: 750px;
-  width: 1100px;
-  margin-bottom: 200px;
+  height: 650px;
+  width: 950px;
+  margin-bottom: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 50px;
+  padding: 20px;
+  
 }
 
 .all-furniture-card {
-  background-color: #eaddcf;
-  height: 300px;
-  width: 200px;
-  padding: 20px;
-  margin: 20px 20px;
-  border-radius: 0px 0px 50px 50px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-}
+ margin: 20px;
+ height: 300px;
+width:240px;
+background-color: #f9f4ef;
+  border:1px solid rgb(4 34 4);
+  box-shadow: 2px 3px 6px 3px #020826;
+  border-radius: 0px 0px 0px 19px;
+  
+  }
 
 .all-furniture-card:hover {
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform:translateY(-5px);
+  transition:0.5s;
+  box-shadow: 0 8px 16px black;
 }
 
 .all-furniture-card img {
-  height: 120px;
-  border: 1px solid black;
-  display: block;
-  margin: auto;
-  width: 150;
-  
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  margin-left: 16px;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 0 16px 20px black;
+
 }
 
 .all-furniture-card p {
   text-align: center;
   text-transform: capitalize;
-  font-size: 21px;
+  font-size: 13px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -133,14 +124,16 @@ color: #f25042;
   color: #020826;
 }
 .heading3{
-  color: rgb(39, 6, 6); ;
-  
+  color: rgb(39, 6, 6);
+}
+.heading4{
+  color: #8c7851;
 }
   </style>
   <body>
     <header>
       <h1 class="center">Urbanfry Home Vallissa Study Table-Double Drawer</h1><br><br>
-      <p><i class="heading">Urbanfry Home Vallissa Study Table-Double Drawer</p></i><br>
+  
       <h2 class="center heading2">Buy study room furniture online that will create an attractive and enjoyable environment in the new furniture its detailed designs, styles and sizes</h2>
       
     </header>
@@ -150,36 +143,33 @@ color: #f25042;
       <div class="all-furniture-container">
         <div class="all-furniture-card">
             <img src="./../images/backgraound bookcase.jpg" alt="image">
-            <p>Background for zoom calls with bookcase</p><br>***<br>price:50,999.00/-<br>
+            <p>Background for zoom calls with bookcase</p><br>price:50,999.00/-<br>
             <a href="./living.html"><button class="btn">buy now</button></a>
         </div>
         <div class="all-furniture-card">
             <img src="./../images/modern interior design.jpg" height="120" alt="image">
-            <p>Realistic modern interior design</p><br>***<br>price:67,999.00/-<br>
+            <p>Realistic modern interior design</p><br>price:67,999.00/-<br>
             <a href="./bed.html"><button class="btn">buy now</button></a>
         </div>
         <div class="all-furniture-card">
             <img src="./../images/high angle desk arrangment with plant.jpg" alt="image">
-            <p> lamp and a plant in a room generative ai </p><br>***<br>price:100,999.00/-<br>
+            <p> lamp and a plant in a room generative </p>price:100,999.00/-<br>
             <a href="./dining.html"><button class="btn">by now</button></a>
         </div>
         <div class="all-furniture-card">
             <img src="./../images/desk with lamp.jpg" alt="image">
             <p>Desk lamp</p><br>
-            ***<br>
             price:89,999.00<br>
             <a href="./study.html"><button class="btn">buy now</button></a>
         </div>
         <div class="all-furniture-card">
             <img src="./../images/laptop generative ai.jpg" alt="image">
-            <p>above a desk with a laptop generative ai</p><br>
-            ****<br>prices:89,999.00/-<br>
+            <p>above a desk with a laptop generative </p>prices:89,999.00/-<br>
             <a href="./outdoor.html"><button class="btn">buy now</button></a>
         </div>
         <div class="all-furniture-card">
             <img src="./../images/book lighting joint.jpg" alt="image">
-            <p>laptop table</p><br>Books lighting joint<br>
-            ****<br>price:98,999.00/-<br>
+            <p>laptop table Books lighting </p><br>price:98,999.00/-<br>
             <a href="./lightning.html"><button class="btn">buy now</button></a>
         </div>
       </div>
