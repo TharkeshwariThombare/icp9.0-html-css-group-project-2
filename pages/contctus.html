@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="./../css/contact.css"/>
+
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+
+</head>
+<style>
+    .body{
+        background-color: #f9f4ef;
+    }
+    *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact-h1{
+
+  text-align: center;
+  padding: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    font-family: "Marck Script", cursive;
+
+  font-size: 30px;
+  color:#f9f4ef;
+
+}
+
+.contact-h1:hover{
+  color:#f9f4ef;
+  transition: 0.3s;
+}
+.main{
+  margin-top: 80px;
+}
+
+.contact-info {
+  width: 400px;
+  margin: 20px;
+  padding: 30px  30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.contact-h2{
+  text-align: center;
+  padding:50px  50px;
+ 
+}
+
+.form {
+  width:600px;
+  margin: 10px;
+  padding: 10px  20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(18, 18, 18, 0.1);
+  display:flex;
+  
+}
+.form-h2{
+  text-align: left;
+  padding:130px  20px ;
+
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.in-name{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.in-email{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.in-msg{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.submit{
+  text-align: center;
+  background-color: #8c7851;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color:#f9f4ef;
+}
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  padding:10px 20px;
+  flex-direction: row;
+  padding: 5px  10px;
+}
+
+.img{
+  height:20px;
+  width: 20px;
+}
+
+.map{
+  width: 600px;
+  margin: 10px  20px;
+}
+
+.map:hover{
+  color:#ccc;
+  transition: 0.5s; 
+  box-shadow: 3px  3px   5px #cccccc;
+}
+</style>
+<body class="body">
+
+    <nav class="navbar">
+        <div class="icon">
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-user"></i>
+        </div>
+     <h1 class="heading"><span class="Vrindavan">**</span> ** </h1>
+        <div class="menu">
+
+           
+        </nav>
+        
+           
+ <div class="main">
+        <div class="contact-info">
+                <h2 class="contact-h2">Get in Touch</h2>
+                <p>
+                    <img src="./../img/call-img.png"  class="img">&nbsp;
+                    <a href="tel:+1234567890">+9850516061</a>
+                </p><br>
+    
+                <p>
+                    <img src="./../img/email-img.png" class="img">&nbsp;
+                    <a href="mailto:info@onlineplantwebsite.com">bac@gimail.com</a>.com</a>&nbsp;
+                </p><br>
+    
+                <p>
+                    <img src="./../img/location-img.png" class="img">&nbsp;
+                    *************
+                </p> 
+                <br>
+        </div>
+
+        <div class="form">
+            <h2 class="form-h2">Send Us a Message</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="in-name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="in-email"><br><br>
+                <label for="addres">addres</label>
+                <input type="text" id="addres" name="addres" class="in-addres"><br><br>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" class="in-msg"></textarea><br><br>
+                <input type="submit" value="Send Message" class="submit">
+            </form>
+        </div>	
+    </div>
+
+    <div  class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121094.6552877982!2d73.78623955549719!3d18.47423624437132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eb732d7c010d%3A0x491540162a9a3aa1!2sP%20for%20plants%20-%20Plant%20shop!5e0!3m2!1sen!2sin!4v1723639275462!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+  
+</body>
+</html>   
