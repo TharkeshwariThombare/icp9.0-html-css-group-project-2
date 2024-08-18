@@ -50,7 +50,7 @@ header p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 50px;
-    box-shadow: 0 4px 10px #8c7851 ;
+    box-shadow: 0 4px 10px #8c7851;
 }
 
 .all-beds-card {
@@ -60,12 +60,12 @@ header p {
     padding: 20px;
     margin: 20px 20px;
     border-radius: 0px 50px 0px 50px;
-    box-shadow: 0 4px 10px #8c7851 ;
+    box-shadow: 0 4px 10px #8c7851;
     transition: box-shadow 0.3s ease;
 }
 
 .all-beds-card:hover {
-    box-shadow: 10px 6px 10px#8c7851 ;
+    box-shadow: 10px 6px 10px#8c7851;
 }
 
 .all-beds-card img {
@@ -74,10 +74,11 @@ header p {
     border: 2px solid black;
     display: block;
     margin: auto;
-    box-shadow: 0 4px 10px #8c7851 ;
+    box-shadow: 0 4px 10px #8c7851;
 }
-.all-beds-card img:hover{
-    box-shadow:  10px 6px 10px #8c7851;
+
+.all-beds-card img:hover {
+    box-shadow: 10px 6px 10px #8c7851;
 }
 
 .all-beds-card p {
@@ -102,9 +103,11 @@ header p {
     transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
         box-shadow 0.3s ease;
 }
-.text-center-bed{
+
+.text-center-bed {
     text-align: center;
 }
+
 .paragraph {
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
