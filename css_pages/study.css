@@ -60,9 +60,9 @@
   }
   .study-card{
     background-color:#f25042;
-    width:250px;
-    padding: 10px;
-    margin: 10px;
+    width:200px;
+    padding: 20px;
+    margin: 20px;
     border-radius:10px;
     box-shadow:-5px 5px  10px 1px  #010d2c;
     border: 1px solid rgb(18, 8, 10);
@@ -70,7 +70,7 @@
   }
   .study-card:hover{
     transition: 0.5s;
-    border-radius: 25px;
+    border-radius: 35px;
     cursor: pointer;
   
   }
@@ -91,21 +91,24 @@
     display: flex;
     justify-content: space-around;
     background-color: #f9f4ef;
-    margin: 20px 0px;
+    margin: 10px 0px;
     padding: 20px;
     }
   .why-choose-us-card{
     background-color: #fff;
-    width: 250px;
-    padding: 50px;
-    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
     margin: 10px;
-    box-shadow: 0 0 10px 3px black
+    box-shadow: 0 0 10px 3px black;
+    box-shadow: 0 0 10px 3px #808080;
+    height: 250px;
   }
   .why-choose-us-img{
-    height: 190px;
+    height: 100px;
     display: block;
     margin: 10px auto;
+    display: flex;
   }
   .header-section{
     display: flex;
@@ -126,18 +129,19 @@
   }
   .study-card{
     background-color: #fff;
-    width: 150px;
+    width: 160px;
     padding: 10px;
     margin: 10px;
+    border-radius:20px ;
   }
   .btn {
-    height: 45px;
-    width: 150px;
+    height: 30px;
+    width: 110px;
     display: block;
     text-align: center;
     margin: auto;
     text-transform: capitalize;
-    background-color: #020826;
+    background-color: #8c7851;
     color: #fffffe;
     border: none;
     border-radius: 10px;
