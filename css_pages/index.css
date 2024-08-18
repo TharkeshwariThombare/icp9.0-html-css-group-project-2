@@ -140,11 +140,14 @@ a {
   width: 240px;
   border-radius: 30px;
   border: 1px solid black;
+  box-shadow: 0px 0px 3px 3px #413725;
+ 
 }
 
 .divimg:hover {
   cursor: pointer;
   transition: 0.5s;
+  
 }
 
 .btn {
@@ -263,8 +266,8 @@ a {
 }
 
 .incus {
-  height: 520px;
-  width: 350px;
+  height: 540px;
+  width: 360px;
   border: none;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -278,8 +281,8 @@ a {
 }
 
 .imgcus {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   display: block;
   margin: 0px auto;
