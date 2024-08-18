@@ -4,6 +4,82 @@
     padding: 0;
     
   }
+  @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  background-color: #f9f4ef;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.prim_text {
+  color: #020826;
+  font-size: 900;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigatin PART 1 */
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navpad {
+  padding: 0px 10px;
+  height: 20px;
+  width: 20px;
+}
+.navpadinput {
+  width: 200px;
+  height: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Naviation Part2 */
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: 900;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.searchparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navpadinput {
+  border: 2px solid black;
+}
+.btnse {
+  background-color: white;
+}
+.icon {
+  margin-top: 2px;
+  background-color: white;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Naviation Part3 */
+.nav3 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
   .dancing-script{
     font-family: "dancing script",cursive;
   }
