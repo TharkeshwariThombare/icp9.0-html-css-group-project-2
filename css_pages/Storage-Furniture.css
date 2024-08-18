@@ -119,6 +119,12 @@ body {
     font-family: "Montserrat", sans-serif
 }
 
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .product-card{
     width: 250px;
     padding: 10px 5px;
@@ -129,7 +135,7 @@ body {
     margin: 20px;
     box-shadow: 10px 10px 30px 5px #fffffe;
     text-align: center;
-    display: block;
+    
 
 }
 

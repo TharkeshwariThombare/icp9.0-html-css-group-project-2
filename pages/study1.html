@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>study Furniture</title>
+    <link rel="icon" href="./../images/study3.jpg" />
+    
+  </head>
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f4ef;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*header*/
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.all-furniture h3 {
+  font-size: 33px;
+  text-align: center;
+  padding-top: 10px;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+}
+
+.all-furniture-container {
+  display: block;
+  margin: auto;
+  background-color: #fffffe;
+  height: 650px;
+  width: 950px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  
+}
+
+.all-furniture-card {
+ margin: 20px;
+ height: 300px;
+width:240px;
+background-color: #f9f4ef;
+  border:1px solid rgb(4 34 4);
+  box-shadow: 2px 3px 6px 3px #020826;
+  border-radius: 0px 0px 0px 19px;
+  
+  }
+
+.all-furniture-card:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform:translateY(-5px);
+  transition:0.5s;
+  box-shadow: 0 8px 16px black;
+}
+
+.all-furniture-card img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  margin-left: 16px;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 0 16px 20px black;
+
+}
+
+.all-furniture-card p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*button*/
+.btn {
+  height: 45px;
+  width: 150px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  text-transform: capitalize;
+  background-color: #8c7851;
+  color: #fffffe;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #705a39;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  font-size: 13px;
+  transform: translateY(2px) scale(0.98);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.center{
+  text-align: center;
+}
+.heading1{
+color: #f25042;
+}
+.heading2{
+  color: #020826;
+}
+.heading3{
+  color: rgb(39, 6, 6);
+}
+.heading4{
+  color: #8c7851;
+}
+  </style>
+  <body>
+    <header>
+      <h1 class="center">A large library with a large table and chairs and a bookcase with a bookcase.</h1><br><br>
+  
+      <h2 class="center">Buy study room furniture online that will create an attractive and enjoyable environment in the house by its detailed designs, styles and sizes</h2>
+      
+    </header>
+
+    <section class="all-furniture">
+      <h3 class="heading1">all Furniture</h3>
+      <div class="all-furniture-container">
+        <div class="all-furniture-card">
+            <img src="./../images/modern library cafe.jpg" alt="image">
+            <p>Modern Bookshop<br> library</p><br>price:50,999.00/-<br>
+            <a href="./living.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/office with leatherbound book.jpg" height="120" alt="image">
+            <p>Office with Leatherbound<br> Books, </p>price:67,999.00/-<br>
+            <a href="./bed.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/office library.jpg" alt="image">
+            <p> Inspiring Legal Office <br>library</p>price:34,999.00<br>
+            <a href="./dining.html"><button class="btn">by now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/laibrary 123.jpg" alt="image">
+            <p>Modern wooden office <br>library</p><br>
+            
+            price:89,999.00<br>
+            <a href="./study.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/libb.jpg" alt="image">
+            <p>coffee table, and a large<br> bookcase</p><br>
+            prices:89,999.00/-<br>
+            <a href="./outdoor.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/libray with table and chairs into book.jpg" alt="image">
+            <p> library with tables and <br>chairs</p><br>
+            price:98,999.00/-<br>
+            <a href="./lightning.html"><button class="btn">buy now</button></a>
+        </div>
+        
+      
+      </div>
+    </section>
+  </body>
+</html>
