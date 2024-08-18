@@ -10,89 +10,84 @@ a {
   text-decoration: none;
 }
 
-.prim_text{
+.prim_text {
   color: #020826;
   font-size: 900;
 }
 
 /* Navigatin PART 1 */
-.nav1{
+.nav1 {
   display: flex;
   justify-content: space-between;
   padding-top: 5px;
-  font-size: larger;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.navpad{
-  padding: 0px 10px ;
+.navpad {
+  padding: 0px 10px;
   height: 20px;
   width: 20px;
-
-  
 }
-.navpadinput{
+.navpadinput {
   width: 200px;
   height: 20px;
-
 }
-a{
+a {
   text-decoration: none;
 }
 
-
 /* Naviation Part2 */
-.nav2{
-    display: flex;
-    justify-content: space-around;
-    font-size: larger;
-    font-weight: 900;
-    align-items: center;
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: 900;
+  align-items: center;
 }
-.searchparent{
+.searchparent {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.navpadinput{
-    border: 2px solid black;
+.navpadinput {
+  border: 2px solid black;
 }
 .btnse {
-    background-color: white;
+  background-color: white;
 }
-.icon{
-    margin-top: 2px;
-    background-color: white;
+.icon {
+  margin-top: 2px;
+  background-color: white;
 }
 
 .pacifico-regular {
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-    }
-
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Naviation Part3 */
-.nav3{
-    display: flex;
-    justify-content: space-around;
-    font-size: larger;
-    font-weight: 900;
-  }
+.nav3 {
+  display: flex;
+  justify-content: space-around;
+  font-size:18px ;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
 
-
-
-   /* <!-- Header Content 0 -->  */
-   .page-heading{
-      text-align: center;
-      background-color: #8c7851;
-      color: black;
-      padding: 16px;
-      width: 98%;
-      font-weight: 900;
-      font-size: larger;
-      margin-bottom: 10px;
-      }
+/* <!-- Header Content 0 -->  */
+.page-heading {
+  text-align: center;
+  background-color: #8c7851;
+  color: black;
+  padding: 16px;
+  width: 98%;
+  font-weight: 900;
+  font-size: larger;
+  margin-bottom: 10px;
+}
 
 /*header*/
 header h1 {
@@ -226,8 +221,8 @@ h3 {
   text-align: center;
 }
 .list {
- display: block;
- padding: 5px 60px 0px 115px;
+  display: block;
+  padding: 5px 60px 0px 115px;
   height: 130px;
   display: flex;
   flex-direction: column;
@@ -236,7 +231,7 @@ h3 {
 }
 .list li {
   width: auto;
-  text-align:initial;
+  text-align: initial;
   list-style-type: none;
   padding: 7px;
   position: relative;
