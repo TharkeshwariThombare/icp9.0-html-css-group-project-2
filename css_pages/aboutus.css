@@ -1,0 +1,146 @@
+.about-body{
+    background-color:#eaddcf;
+    text-align: center;
+    height:auto;
+    border:5px solid #020826;
+    border-radius: 5px;
+
+
+}
+.img-front{
+    width:1200px;
+    height:600px;
+    border-radius:0 15px 0 15px;
+    border:solid 3px #8c7851;
+   
+}
+.main-heading{
+    font-size:60px;
+    color:#020826;
+    text-align:center;
+    margin-top:30px;
+    font-family: "Montserrat",sans-serif;
+    text-transform: uppercase;
+
+}
+.secondary-heading{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#f25042;
+}
+.heading{
+    color:#020826;
+    font-size:21px;
+    text-align:center;
+    align-items: center;
+
+}
+.para{
+   display: flex;
+   flex-wrap:wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.para-description{
+    color:#716040;
+    font-family: cursive;
+    font-size: 18px;
+    height:250px;
+    width:400px;
+}
+.trade-para{
+    height:350px;
+    color:#716040;
+    font-family: cursive;
+    font-size: 18px;
+    
+    width:400px;
+
+}
+   
+.tertiary-heading{
+    color:#020826;
+    font-size: 30px;
+    text-align: center;
+}
+.services{
+    height:300px;
+    width:300px;
+    border-radius: 5px;
+    border:solid 2px #8c7851;
+    box-shadow: 5px 5px 5px 5px #8c7851;
+    margin: 10px;
+    background-color: #fffffe;
+    display: inline-block;
+    
+    
+
+}
+.img-services{
+    height:200px;
+    width:200px;
+    border-radius: 7px;
+    margin-top: 20px;
+    
+   
+}
+.service-description{
+    font-size: 20px;
+    color:#716040;
+}
+.staff-table{
+   display: inline-block;
+   flex-wrap:wrap;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-family: cursive;
+   color:#716040;
+   
+}
+  
+.values{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    font-family: cursive;
+    color:#716040;
+ }
+ 
+
+.map{
+   
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+ display:block;
+ margin-left: 20px;
+ margin-top:10px;
+}
+.btn{
+    background-color: #8c7851;
+    color:#fffffe;
+    border-radius: 10px;
+    border:solid 3px #020826;
+    height:30px;
+   }
+   .btn:hover{
+    transition: 1s;
+     background-color:#020826;
+
+
+   }
+
+
+
+
+
+
+
