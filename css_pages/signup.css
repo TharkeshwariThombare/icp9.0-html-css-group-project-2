@@ -1,0 +1,162 @@
+body{
+    background-color:#f9f4ef;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    
+    width:1440px;
+    position: relative;
+    top: 40px;
+    left: 20px;
+
+    margin-right: 150px;
+    background-color:#eaddcf;
+    height:600px;
+   
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main:hover{
+    box-shadow: 5px -5px 5px #8c7851;
+}
+
+.left{
+    background-color: blueviolet;
+    background-image:url(../images/picture2.jpeg);
+    background-size:contain;
+    width:710px;
+    height:600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.left:hover{
+    box-shadow: 5px -5px 5px #8c7851;
+}
+
+
+.right{
+    background-color:#eaddcf;
+    height:600px;
+    width:720px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+    
+
+.sign-up{
+        height: 500px;
+        width:450px;
+        background-color:transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 10px;
+        left: 110px;
+        padding: 40px;
+        border-radius: 10px ;
+    }
+h1{
+    position: relative;
+    bottom: 15px;
+    top: 10px;
+}
+.btn{
+    position: relative;
+    top: 20px;
+    left:120px;
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    border:solid 3px black;
+    font-weight:740;
+    background-color:#8c7851;
+    color:#fffffe;
+    margin-right: 20px;
+}
+.btn:hover{
+    transition: 0.5s ease-in;
+    background-color:#574d37;
+    border: transparent;
+}
+
+.right .sign-up form .inp1 input{
+    width: 380px;
+    height: 10px;
+    background:#fff;
+    
+    border-radius: 40px;
+    font-size: 16px;
+    color:black;
+    padding: 20px 45px 20px 20px;
+    outline: none;
+    border: 2px solid #8c7851;
+    transition: border-color 0.3s ease;
+}
+.right .sign-up form .inp1 input:hover{
+    border-color:#fff;
+}
+.right .sign-up form .inp1 input::placeholder{
+    color: black;
+}
+.right .sign-up form .inp1 i{
+    position:relative;
+    left: 405px;
+    bottom:55px;
+    font-size: 20px;
+    
+
+}
+nav{
+    height: 40px;
+    width: auto;
+
+}
+nav a{
+    height: 40px;
+    width:40px;
+    background-color:black;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.social-signup {
+margin-top:0px;
+}
+
+.social-signup p {
+margin-bottom: 5px;
+}
+
+.google-btn {
+background-color: #dd4b39;
+margin-bottom: 10px;
+}
+
+.facebook-btn {
+background-color: #3b5998;
+margin-bottom: 10px;
+}
+
+.google-btn, .facebook-btn {
+color: white;
+border: none;
+border-radius: 20px;
+padding: 10px;
+width: 100%;
+cursor: pointer;
+font-size: 16px;
+transition: background-color 0.3s ease;
+}
+
+.google-btn:hover {
+background-color: #c23321;
+}
+
+.facebook-btn:hover {
+background-color: #2d4373;
+}
