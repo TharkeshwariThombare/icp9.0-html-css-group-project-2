@@ -10,20 +10,109 @@ a {
   text-decoration: none;
 }
 
+.prim_text {
+  color: #020826;
+  font-size: 900;
+}
+
+.page-heading {
+  height: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.page-heading p{
+ font-size: 22px;
+}
+
+/* Navigatin PART 1 */
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navpad {
+  padding: 0px 10px;
+  height: 20px;
+  width: 20px;
+}
+.navpadinput {
+  width: 200px;
+  height: 22px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Naviation Part2 */
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: 900;
+  align-items: center;
+}
+.searchparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navpadinput {
+  border: 2px solid black;
+}
+.btnse {
+  background-color: white;
+}
+.icon {
+  margin-top: 2px;
+  background-color: white;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Naviation Part3 */
+.nav3 {
+  display: flex;
+  justify-content: space-around;
+  font-size:18px ;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* <!-- Header Content 0 -->  */
+.page-heading {
+  text-align: center;
+  background-color: #8c7851;
+  color: black;
+  padding: 16px;
+  width: 98%;
+  font-weight: 900;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
 /*header*/
 header h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 
 header p {
   text-align: center;
-  font-size: 17px;
+  font-size: 15px;
   font-family: "Montserrat", sans-serif;
   position: relative;
-  bottom: 30px;
+  bottom: 25px;
 }
 
 /*all furniture*/
@@ -142,8 +231,8 @@ h3 {
   text-align: center;
 }
 .list {
- display: block;
- padding: 5px 60px 0px 115px;
+  display: block;
+  padding: 5px 60px 0px 115px;
   height: 130px;
   display: flex;
   flex-direction: column;
@@ -152,7 +241,7 @@ h3 {
 }
 .list li {
   width: auto;
-  text-align:initial;
+  text-align: initial;
   list-style-type: none;
   padding: 7px;
   position: relative;
@@ -202,4 +291,8 @@ a:hover {
   margin: 0;
   font-size: 16px;
   padding: 7px;
+}
+
+@media screen {
+  
 }
