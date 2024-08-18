@@ -96,13 +96,14 @@
     }
   .why-choose-us-card{
     background-color: #fff;
-    width: 300px;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px;
-    box-shadow: 0 0 10px 3px black;
-    box-shadow: 0 0 10px 3px #808080;
+    width: 180px;
     height: 250px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid rgb(18, 8, 10);
+    box-shadow: 2px 3px 6px 3px #020826;
+    border-radius:0px 0px 0px 19px;
+    
   }
   .why-choose-us-img{
     height: 100px;
@@ -130,9 +131,12 @@
   .study-card{
     background-color: #fff;
     width: 160px;
+    height: 200px;
     padding: 10px;
-    margin: 10px;
-    border-radius:20px ;
+    margin: 20px;
+    border: 1px solid rgb(18, 8, 10);
+    box-shadow: 2px 3px 6px 3px #020826;
+    border-radius:0px 0px 0px 19px;
   }
   .btn {
     height: 30px;
