@@ -1,0 +1,51 @@
+
+body{
+    background-color: #eaddcf;
+    margin: 0px;
+    padding: 0px;
+}
+.text{
+ color: black;
+}
+.page-heading{
+    text-align: center;
+    background-color: #8c7851;
+    color: black;
+    padding: 16px;
+    width: 100%;
+}
+.left_nav{
+    display: inline-block;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.child{
+    margin-top: 20px;
+    
+}
+.textno_pad{
+    text-decoration: none;
+    padding: 20px 0px 10px 10px;
+   
+}
+
+.right_nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+.padding{
+ padding: 20px 0px 10px 10px;
+}
+
+/* .left{
+ 
+} */
+
+.pnav{
+    display: flex;
+    justify-content: space-between;
+}
