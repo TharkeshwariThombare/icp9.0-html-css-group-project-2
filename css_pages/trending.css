@@ -15,6 +15,15 @@ a {
   font-size: 900;
 }
 
+.page-heading {
+  height: 20px;
+  text-align: center;
+}
+
+.page-heading p{
+ font-size: 22px;
+}
+
 /* Navigatin PART 1 */
 .nav1 {
   display: flex;
@@ -31,7 +40,7 @@ a {
 }
 .navpadinput {
   width: 200px;
-  height: 20px;
+  height: 22px;
 }
 a {
   text-decoration: none;
