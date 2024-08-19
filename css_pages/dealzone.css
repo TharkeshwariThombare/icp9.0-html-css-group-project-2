@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+     
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4ef;
+    width: 100%;
+  }
+  /* <!-- Header Content 0 -->  */
+  .page-heading {
+    text-align: center;
+    background-color: #8c7851;
+    color: black;
+    padding: 16px;
+    width: 98%;
+    font-weight: 900;
+    font-size: larger;
+    margin-bottom: 10px;
+  }
+  
+    h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+  .cards-container-section {
+    margin: 0;
+    width: 100%;
+    padding: 50px 0px;
+  }
+  .cardcont{
+    background-color: #8c7851;
+    height: auto;
+    width: 1200px;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .card1{
+    background-color: #fffffe;
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    margin: 25px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ .img{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px ;
+}
+.card1:hover{
+    box-shadow: 1px 1px 5px 2px black  ;
+}
+
+.btn {
+    height: 35px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    text-transform: capitalize;
+    background-color: #8c7851;
+    color: #fffffe;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
+    box-shadow 0.3s ease;
+  }
+  
+  .btn :hover {
+    background-color: #705a39;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+    }
+
+  .btn:active {
+    font-size: 13px;
+    transform: translateY(2px) scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  /* Navigatin PART 1 */
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navpad {
+    padding: 0px 10px;
+    height: 20px;
+    width: 20px;
+}
+.navpadinput {
+    width: 200px;
+    height: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+/* Naviation Part2 */
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: 900;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+.searchparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navpadinput {
+    border: 2px solid black;
+}
+.btnse {
+    background-color: white;
+}
+.icon {
+    margin-top: 2px;
+    background-color: white;
+}
+
+.pacifico-regular {
+   font-family: "Pacifico", cursive;
+   font-weight: 400;
+   font-style: normal;
+}
+
+/* Naviation Part3 */
+.nav3 {
+   display: flex;
+   justify-content: space-around;
+   font-size: 18px;
+   font-weight: 600;
+   font-family: "Montserrat", sans-serif;
+}
+
+.img1{
+   margin: auto;
+   display: block;
+   height: 500px;
+}
+.img1:hover{
+   transform: translateY(2px) scale(0.98);
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.p1 {
+   height:auto;
+   text-align: center;
+   font-size: 14px;
+   font-family: "Montserrat", sans-serif;
+} 
+.btn-container {
+   display: flex;
+   justify-content: center;
+}
+.prim_text {
+   color: #020826;
+   font-size: 900;
+   font-family: "Montserrat", sans-serif;
+}
+.foot{
+   display: inline-block;
+   height: 350px;
+   width: 300px;
+   text-align: center;
+   margin-left: 600px;
+   background-color:#fff8f5;
+  
+}
+
+
+
+
+  
