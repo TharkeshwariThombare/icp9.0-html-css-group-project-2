@@ -178,7 +178,15 @@ a {
    font-size: 900;
    font-family: "Montserrat", sans-serif;
 }
-
+.foot{
+   display: inline-block;
+   height: 350px;
+   width: 300px;
+   text-align: center;
+   margin-left: 600px;
+   background-color:#fff8f5;
+  
+}
 
 
 
