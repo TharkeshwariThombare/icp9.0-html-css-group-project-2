@@ -12,7 +12,7 @@ body{
 
     margin-right: 150px;
     background-color:#eaddcf;
-    height:600px;
+    height:650px;
    
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -26,15 +26,10 @@ body{
     background-image:url(../images/picture2.jpeg);
     background-size:contain;
     width:710px;
-    height:600px;
+    height:650px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-
-.left:hover{
-    box-shadow: 5px -5px 5px #8c7851;
-}
-
 
 .right{
     background-color:#eaddcf;
@@ -77,11 +72,14 @@ h1{
     background-color:#8c7851;
     color:#fffffe;
     margin-right: 20px;
+
+
 }
 .btn:hover{
     transition: 0.5s ease-in;
     background-color:#574d37;
     border: transparent;
+    cursor: pointer;
 }
 
 .right .sign-up form .inp1 input{
