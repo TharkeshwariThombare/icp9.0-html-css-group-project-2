@@ -1,5 +1,6 @@
 body{
     background-color:#f9f4ef;
+    overflow-y: hidden;
 }
 .main{
     display: flex;
@@ -7,18 +8,19 @@ body{
     
     width:1440px;
     position: relative;
-    top: 40px;
-    left: 20px;
+    top: 10px;
+    left:40px;
 
     margin-right: 150px;
     background-color:#eaddcf;
-    height:650px;
+    height:700px;
    
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 20px;
 }
 .main:hover{
-    box-shadow: 5px -5px 5px #8c7851;
+    box-shadow: 5px -5px 5px #8c7851,
+    -5px -5px 5px #8c7851
+    ;
 }
 
 .left{
@@ -26,11 +28,10 @@ body{
     background-image:url(../images/picture2.jpeg);
     background-size:contain;
     width:710px;
-    height:650px;
+    height:700px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-
 .right{
     background-color:#eaddcf;
     height:600px;
@@ -38,9 +39,6 @@ body{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
-    
-
 .sign-up{
         height: 500px;
         width:450px;
@@ -50,7 +48,7 @@ body{
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 10px;
+        top: 20px;
         left: 110px;
         padding: 40px;
         border-radius: 10px ;
@@ -58,7 +56,7 @@ body{
 h1{
     position: relative;
     bottom: 15px;
-    top: 10px;
+    top: 20px;
 }
 .btn{
     position: relative;
@@ -72,8 +70,6 @@ h1{
     background-color:#8c7851;
     color:#fffffe;
     margin-right: 20px;
-
-
 }
 .btn:hover{
     transition: 0.5s ease-in;
@@ -81,7 +77,9 @@ h1{
     border: transparent;
     cursor: pointer;
 }
-
+.form{
+    margin-top: 50px;
+}
 .right .sign-up form .inp1 input{
     width: 380px;
     height: 10px;
@@ -106,7 +104,6 @@ h1{
     left: 405px;
     bottom:55px;
     font-size: 20px;
-    
 
 }
 nav{
@@ -127,6 +124,7 @@ margin-top:0px;
 }
 
 .social-signup p {
+    margin-top: 60px;
 margin-bottom: 5px;
 }
 
