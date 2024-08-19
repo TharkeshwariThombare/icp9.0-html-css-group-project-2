@@ -43,11 +43,40 @@ body {
     justify-content: space-evenly;
   }
   .card1{
-   background-color: #fffffe;
-   height: auto;
-   width: 250px;
-   padding: 20px;
-  margin: 25px 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fffffe;
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    margin: 25px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+ .img{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px ;
+}
+.card1:hover{
+    box-shadow: 1px 1px 5px 2px black  ;
+}
+
+.btn {
+    height: 35px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    text-transform: capitalize;
+    background-color: #8c7851;
+    color: #fffffe;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
+    box-shadow 0.3s ease;
+  }
+  
+
   
