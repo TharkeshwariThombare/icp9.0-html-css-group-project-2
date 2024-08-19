@@ -154,6 +154,33 @@ a {
    font-family: "Montserrat", sans-serif;
 }
 
+.img1{
+   margin: auto;
+   display: block;
+   height: 500px;
+}
+.img1:hover{
+   transform: translateY(2px) scale(0.98);
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.p1 {
+   height:auto;
+   text-align: center;
+   font-size: 14px;
+   font-family: "Montserrat", sans-serif;
+} 
+.btn-container {
+   display: flex;
+   justify-content: center;
+}
+.prim_text {
+   color: #020826;
+   font-size: 900;
+   font-family: "Montserrat", sans-serif;
+}
+
+
+
 
 
   
