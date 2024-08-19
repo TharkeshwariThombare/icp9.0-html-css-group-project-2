@@ -14,6 +14,9 @@ body {
 }
 
 /* Navigatin PART 1 */
+.help{
+  
+}
 .nav1 {
   display: flex;
   justify-content: space-between;
