@@ -78,5 +78,19 @@ body {
     box-shadow 0.3s ease;
   }
   
+  .btn :hover {
+    background-color: #705a39;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+    }
+
+  .btn:active {
+    font-size: 13px;
+    transform: translateY(2px) scale(0.98);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
 
   
