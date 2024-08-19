@@ -17,7 +17,10 @@ body {
   font-size: 900;
   font-family: "Montserrat", sans-serif;
 }
-
+.page-heading{
+background-color: #716040;
+text-align: center;
+}
 /* Navigatin PART 1 */
 .nav1 {
   display: flex;
