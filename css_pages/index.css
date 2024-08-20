@@ -12,6 +12,31 @@ body {
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
 }
+/* <!-- Position Fix --> */
+
+.icoimg1{
+  background-color: #f9f4ef;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color:#f9f4ef ;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.icoimg2{
+  background-color: #f9f4ef;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color:#f9f4ef ;
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  cursor: pointer;
+}
+
 
 /* Navigatin PART 1 */
 .help{
