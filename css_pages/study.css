@@ -1,0 +1,221 @@
+.body{
+    background-color: #fef6e4;
+    margin: 0;
+    padding: 0;
+    
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  background-color: #f9f4ef;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.prim_text {
+  color: #020826;
+  font-size: 900;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navigatin PART 1 */
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navpad {
+  padding: 0px 10px;
+  height: 20px;
+  width: 20px;
+}
+.navpadinput {
+  width: 200px;
+  height: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Naviation Part2 */
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: 900;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.searchparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navpadinput {
+  border: 2px solid black;
+}
+.btnse {
+  background-color: white;
+}
+.icon {
+  margin-top: 2px;
+  background-color: white;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Naviation Part3 */
+.nav3 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+  .dancing-script{
+    font-family: "dancing script",cursive;
+  }
+  .bg-light{
+  
+    background-color: #fef6e4;
+  }
+  .pg-primary{
+    color:#020826 ;
+  }
+  .bg-secondary{
+    background-color: #8c7851;
+  }
+  .text-primary{
+    background-color:#f25042;
+  }
+  .text-secondary{
+    background-color:#fffffe;
+  }
+  .text-dark{
+    color:#020826;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .btn{
+  
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    cursor:pointer;
+    box-shadow: 0 15px 15px #f3d2c1;
+    color: #001858;
+  }
+ 
+  
+  .no-underline{
+    text-decoration: none;
+  }
+  .fs-50{
+    font-size: 50px;
+  }
+  .study-card{
+    background-color:#f25042;
+    width:200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius:10px;
+    box-shadow:-5px 5px  10px 1px  #010d2c;
+    border: 1px solid rgb(18, 8, 10);
+    
+  }
+  .study-card:hover{
+    transition: 0.5s;
+    border-radius: 35px;
+    cursor: pointer;
+  
+  }
+  .study-icon{
+    height: 100px;
+  }
+  
+  .subtitle-highlight{
+    background-color: #f25042;
+    font-weight: bold;
+    padding: 2px 1px;
+    border-radius: 10px;
+  }
+  .why-choose-us-heading{
+    margin top: 70px;
+  }
+  .why-choose-us-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f4ef;
+    margin: 10px 0px;
+    padding: 20px;
+    }
+  .why-choose-us-card{
+    background-color: #fff;
+    width: 180px;
+    height: 250px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid rgb(18, 8, 10);
+    box-shadow: 2px 3px 6px 3px #020826;
+    border-radius:0px 0px 0px 19px;
+    
+  }
+  .why-choose-us-img{
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+    display: flex;
+  }
+  .header-section{
+    display: flex;
+  }
+  .header-img-container{
+    width: 50%;
+  }
+  .header-description-container{
+    width: 50%;
+    padding: 20px;
+  }
+  .header-img{
+     height: 300px;
+     border: 10px solid #716040;
+     display: block;
+     margin: 20px auto;
+     
+  }
+  .study-card{
+    background-color: #fff;
+    width: 160px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid rgb(18, 8, 10);
+    box-shadow: 2px 3px 6px 3px #020826;
+    border-radius:0px 0px 0px 19px;
+  }
+  .btn {
+    height: 30px;
+    width: 110px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    background-color: #8c7851;
+    color: #fffffe;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
+      box-shadow 0.3s ease;
+  
+  }
