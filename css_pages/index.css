@@ -10,9 +10,13 @@ body {
   color: #020826;
   font-size: 900;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 /* Navigatin PART 1 */
+.help{
+
+}
 .nav1 {
   display: flex;
   justify-content: space-between;
@@ -67,6 +71,13 @@ a {
 }
 
 /* Naviation Part3 */
+.at:hover{
+  color:#f9f4ef ;
+  cursor: pointer;
+  transition: 0.5s;
+  
+
+}
 .nav3 {
   display: flex;
   justify-content: space-around;
@@ -147,6 +158,7 @@ a {
 .divimg:hover {
   cursor: pointer;
   transition: 0.5s;
+  
   
 }
 
