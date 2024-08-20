@@ -229,4 +229,6 @@ body {
     width: 1000px;
     margin-left: 250px;
     transition: 0.5s;
+    text-align: center;
+    align-items: center;
 }
