@@ -10,9 +10,38 @@ body {
   color: #020826;
   font-size: 900;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+/* <!-- Position Fix --> */
+
+.icoimg1{
+  background-color: #f9f4ef;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color:#f9f4ef ;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.icoimg2{
+  background-color: #f9f4ef;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  color:#f9f4ef ;
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  cursor: pointer;
 }
 
+
 /* Navigatin PART 1 */
+.help{
+
+}
 .nav1 {
   display: flex;
   justify-content: space-between;
@@ -67,6 +96,13 @@ a {
 }
 
 /* Naviation Part3 */
+.at:hover{
+  color:#f9f4ef ;
+  cursor: pointer;
+  transition: 0.5s;
+  
+
+}
 .nav3 {
   display: flex;
   justify-content: space-around;
@@ -147,6 +183,7 @@ a {
 .divimg:hover {
   cursor: pointer;
   transition: 0.5s;
+  
   
 }
 
