@@ -5,6 +5,16 @@
 
 Discover the future of furniture shopping with Decor den, an innovative open-source project designed to revolutionize the way you browse, select, and purchase furniture. Built with cutting-edge web technologies like HTML, CSS Decor den offers a seamless and engaging user experience.
 
+![HomePage](./images/githubimg/img1.png)
+
+![HomePage](./images/githubimg/img2.png)
+
+![HomePage](./images/githubimg/img4.png)
+
+![HomePage](./images/githubimg/img3.png)
+
+![HomePage](./images/githubimg/img5.png)
+
 ### Key Features:
 - <b>Modern Design</b>: Enjoy a clean, stylish interface that makes furniture shopping a pleasure.
 
