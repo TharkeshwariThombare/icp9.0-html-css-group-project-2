@@ -17,7 +17,11 @@ body {
   font-size: 900;
   font-family: "Montserrat", sans-serif;
 }
+.page-heading{
+background-color: #716040;
+text-align: center;
 
+}
 /* Navigatin PART 1 */
 .nav1 {
   display: flex;
@@ -194,7 +198,7 @@ a {
   }
   .study-card{
     background-color: #fff;
-    width: 160px;
+    width: 200px;
     height: 200px;
     padding: 10px;
     margin: 20px;
@@ -217,5 +221,6 @@ a {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
       box-shadow 0.3s ease;
-  
   }
+
+  
