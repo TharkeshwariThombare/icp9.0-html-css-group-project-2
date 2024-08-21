@@ -11,6 +11,7 @@ body {
   font-size: 900;
   font-family: "Montserrat", sans-serif;
 }
+ 
 
 /* Navigatin PART 1 */
 .nav1 {
@@ -75,6 +76,17 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
+/* <!-- Header Content 0 -->  */
+.page-heading {
+  text-align: center;
+  background-color: #8c7851;
+  color: black;
+  padding: 16px;
+  width: 98%;
+  font-weight: 900;
+  font-size: larger;
+  margin-bottom: 10px;
+}
 
 body {
     margin: 0;
@@ -90,6 +102,13 @@ body {
     border-radius: 3px;
     box-shadow: 2px 2px 2px 2px #716040
   }
+
+  .main-img:hover{
+    box-shadow: 0px 0px 50px 20px #eaddcf;
+    border-radius: 20px;
+    transition: 0.5s
+   }
+
 
 .header{
     text-align: center;
@@ -125,6 +144,12 @@ body {
   justify-content: space-evenly;
 }
 
+.cards-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .product-card{
     width: 250px;
     padding: 10px 5px;
@@ -135,9 +160,7 @@ body {
     margin: 20px;
     box-shadow: 10px 10px 30px 5px #fffffe;
     text-align: center;
-    
-
-}
+   }
 
 .product-card:hover{
     box-shadow: 0px 0px 50px 20px #fffffe;
@@ -187,6 +210,7 @@ body {
     margin: 10px auto;
     border-radius: 3px;
     box-shadow: 2px 2px 2px 2px #716040
+    
     
 }
 
