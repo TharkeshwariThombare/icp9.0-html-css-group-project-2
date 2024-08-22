@@ -25,6 +25,11 @@ body {
   bottom: 20px;
   cursor: pointer;
 }
+.icoimg1:hover{
+  box-shadow: 0px 0px 10px 5px #413725;
+  border: 1px solid;
+  transition: 0.5s;
+}
 .icoimg2{
   background-color: #f9f4ef;
   height: 60px;
@@ -35,6 +40,11 @@ body {
   right: 20px;
   bottom: 100px;
   cursor: pointer;
+}
+.icoimg2:hover{
+  box-shadow: 0px 0px 10px 5px #413725;
+  border: 1px solid;
+  transition: 0.5s;
 }
 
 
@@ -521,3 +531,28 @@ a:hover {
   font-size: 16px;
   padding: 7px;
 }
+
+/* Media Query
+
+   /* Mobile Devices 
+   @media screen  and (max-width: 500px) {
+    .icoimg1{
+          height: 30px;
+          width: 30px;
+    }
+    .icoimg2{
+          height: 30px;
+          width: 30px;
+    }
+    
+  }
+
+    /* Tablet Devices  
+   @media screen  and (min-width: 501px) and (max-width: 768px) {
+    
+  }
+
+    /* Desktop Devices  
+   @media screen   and (min-width: 769px) {
+    
+  }  */
