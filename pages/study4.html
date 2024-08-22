@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>study Furniture</title>
-    <link rel="icon" href="./../images/study3.jpg" />
+    <link rel="icon" href="./../images/homepage_images/furniture.png" />
     
   </head>
   <style>
@@ -33,6 +33,7 @@ header h1 {
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
 }
+
 .all-furniture-container {
   display: block;
   margin: auto;
@@ -90,7 +91,7 @@ background-color:#f9f4ef;
 
 .btn {
   height: 30px;
-    width: 110px;
+    width: 100px;
     display: block;
     text-align: center;
     margin: auto;
@@ -128,6 +129,9 @@ color: #f25042;
 }
 .heading3{
   color: rgb(39, 6, 6);
+}
+.heading4{
+  color: #8c7851;
 }
 footer {
   background: #8c7851;
@@ -218,54 +222,269 @@ a:hover {
   font-size: 16px;
   padding: 7px;
 }
+body {
+  background-color: #f9f4ef;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.prim_text {
+  color: #020826;
+  font-size: 900;
+  font-family: "Montserrat", sans-serif;
+}
+.page-heading{
+    text-align: center;
+    background-color: #8c7851;
+    color: black;
+    padding: 16px;
+    width: 98%;
+    font-weight: 900;
+    font-size: large;
+    margin-bottom: 10px;
+ }
+.heading4{
+  font-size: 50px;
+}
 
 
+/* Navigatin PART 1 */
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navpad {
+  padding: 0px 10px;
+  height: 20px;
+  width: 20px;
+}
+.navpadinput {
+  width: 200px;
+  height: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Naviation Part2 */
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: 900;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.searchparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navpadinput {
+  border: 2px solid black;
+}
+.btnse {
+  background-color: white;
+}
+.icon {
+  margin-top: 2px;
+  background-color: white;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Naviation Part3 */
+.nav3 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montse";
+}
   </style>
   <body>
+    <!-- Header Content 0-->
+  <header>
+    <div class="page-heading">
+        Freedom Sale: Up to 70% OFF|<span style="color: red">&nbsp;Shop Now.</span>
+    </div>
+</header>
+
+  <!-- Navigatin PART 1 -->
+  <nav class="nav1 prim_text">
+    <div>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/help.png"
+          height="15px"
+          alt="help"
+        /><span class="prim_text">Help</span>
+      </a>
+
+      <a href="#" class="navpad">
+        <imgp
+          src="./../images/homepage_images/trackorder (1).png"
+          height="15px"
+          alt="help"
+        /><span class="prim_text">Track Order</span>
+      </a>
+    </div>
+
+    <div>
+      <a href="#" class="navpad prim_text">Find a Store</a>
+      <a href="#" class="navpad prim_text">Bulk Orders</a>
+      <a href="#" class="navpad prim_text">Gift Cards</a>
+      <a href="#" class="navpad prim_text">UL Services</a>
+    </div>
+  </nav>
+  <hr />
+
+  <!-- Naviation Part2 -->
+
+  <nav class="nav2">
+    <div>
+      <img
+        src="./../images/homepage_images/frame (1).png"
+        alt="img"
+        class="navpad"
+      />
+      <span class="pacifico-regular">Decor den</span>
+    </div>
+
+    <div class="searchparent">
+      <form action="https://www.google.com/search?">
+        <input
+          type="text"
+          id="search"
+          name="q"
+          placeholder="Search"
+          required
+          class="navpadinput"
+        />
+        <label for="search">
+          <button class="btnse">
+            <img
+              src="./../images/homepage_images/search.png"
+              height="14px"
+              alt="search"
+              class="icon"
+            />
+          </button>
+        </label>
+      </form>
+    </div>
+
+    <div>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/track.png"
+          height="25px"
+          alt="help"
+        />
+      </a>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/user.png"
+          height="25px"
+          alt="help"
+        />
+      </a>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/add-to-favorites.png"
+          height="25px"
+          alt="help"
+        />
+      </a>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/cart.png"
+          height="25px"
+          alt="help"
+        />
+      </a>
+    </div>
+  </nav>
+  <hr />
+
+  <!-- Naviation Part3 -->
+
+  <nav class="nav3">
+    <div>
+      <a href="./index.html" class="navpad prim_text"><b>Home</b></a>
+      <a href="#" class="navpad prim_text"><b>Deal Zone</b></a>
+      <a href="./pages/trending.html" class="navpad prim_text"
+        ><b>Trending</b></a
+      >
+      <a href="#" class="navpad prim_text"><b>Storage Furniture</b></a>
+      <a href="./pages/study.html" class="navpad prim_text"><b>Study</b></a>
+      <a href="#" class="navpad prim_text"><b>Bedroom & Mattresses</b></a>
+      <a href="#" class="navpad prim_text"><b>Dining</b></a>
+      <a href="#" class="navpad prim_text"><b>Living</b></a>
+    </div>
+  </nav>
+  <hr />
     <nav>
       <a href="study.html"><img src="../images/back-button.png" height="30px"></a>
   </nav>
     <header>
-      <h1 class="center">Urbanfry Home Vallissa Study Table-Double Drawer</h1><br><br>
+      <h1 class="center">A large library with a large table and chairs and a bookcase with a bookcase</h1><br><br>
   
-      <h2 class="center heading2">Buy study room furniture online that will create an attractive and enjoyable environment in the new furniture its detailed designs, styles and sizes</h2>
+      <h2 class="center">Buy study room furniture online that will create an attractive and enjoyable environment in the house by its detailed designs, styles and sizes</h2>
       
     </header>
-
+  
     <section class="all-furniture">
       <h3 class="heading1">all Furniture</h3>
       <div class="all-furniture-container">
         <div class="all-furniture-card">
-            <img src="./../images/backgraound bookcase.jpg" alt="image">
-            <p>Background for zoom calls </p><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>50,999.00/-<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
+            <img src="./../images/modern library cafe.jpg" alt="image">
+            <p>Modern Bookshop library</p><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>50,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
         </div>
         <div class="all-furniture-card">
-            <img src="./../images/modern interior design.jpg" height="120" alt="image">
-            <p>Realistic modern interior design</p><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>67,999.00/-<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
+            <img src="./../images/office with leatherbound book.jpg" height="120" alt="image">
+            <p>Office with Leatherbound Books </p> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>67,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
         </div>
         <div class="all-furniture-card">
-            <img src="./../images/high angle desk arrangment with plant.jpg" alt="image">
-            <p> lamp and a plant in a room generative </p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>100,999.00/-<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./../pages/contctus.html"><button class="btn">by now</button></a>
+            <img src="./../images/classroom chairs.jpg" alt="image">
+            <p> A classroom and wall abave the deske and chairs</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>34,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">by now</button></a>
         </div>
         <div class="all-furniture-card">
-            <img src="./../images/desk with lamp.jpg" alt="image">
-            <p>Desk lamp</p><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> price:</b>89,999.00/-<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
+            <img src="./../images/laibrary 123.jpg" alt="image">
+            <p>Modern wooden office library</p><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <b> price:</b>89,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
         </div>
         <div class="all-furniture-card">
-            <img src="./../images/laptop generative ai.jpg" alt="image">
-            <p>above a desk with a laptop generative<br></p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>prices:</b>89,999.00/-<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
+            <img src="./../images/libb.jpg" alt="image">
+            <p>coffee table, and a large bookcase</p><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <b> prices:</b>89,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./outdoor.html"><button class="btn">buy now</button></a>
         </div>
         <div class="all-furniture-card">
-            <img src="./../images/book lighting joint.jpg" alt="image">
-            <p>laptop table Books lighting </p><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>98,999.00/-<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
+            <img src="./../images/libray with table and chairs into book.jpg" alt="image">
+            <p> library with tables and chairs</p><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <b> price:</b>98,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
         </div>
+        
+      
       </div>
     </section>
     <footer>
