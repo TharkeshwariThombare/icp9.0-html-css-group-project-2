@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>study Furniture</title>
-    <link rel="icon" href="./../images/study3.jpg" />
-     </head>
+    <link rel="icon" href="./../images/homepage_images/furniture.png" />
+    
+  </head>
   <style>
-   body {
+    body {
   margin: 0;
   padding: 0;
   background-color: #f9f4ef;
@@ -32,6 +33,7 @@ header h1 {
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
 }
+
 .all-furniture-container {
   display: block;
   margin: auto;
@@ -48,12 +50,12 @@ header h1 {
 
 .all-furniture-card {
  margin: 20px;
+ height: 310px;
 width:240px;
 background-color:#f9f4ef;
   border:1px solid rgb(4 34 4);
   box-shadow: 2px 3px 6px 3px #020826;
   border-radius: 0px 0px 0px 19px;
-  height: 320px;
   
   }
 
@@ -89,7 +91,7 @@ background-color:#f9f4ef;
 
 .btn {
   height: 30px;
-    width: 110px;
+    width: 100px;
     display: block;
     text-align: center;
     margin: auto;
@@ -128,58 +130,409 @@ color: #f25042;
 .heading3{
   color: rgb(39, 6, 6);
 }
+.heading4{
+  color: #8c7851;
+}
+footer {
+  background: #8c7851;
+  padding-top: 50px;
+  color: white;
+}
+.container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.footer-content {
+  width: 33.3%;
+}
+h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.footer-content p {
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+.footer-content ul {
+  text-align: center;
+}
+.list {
+  display: block;
+  padding: 5px 60px 0px 115px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.list li {
+  width: auto;
+  text-align: initial;
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+}
+.list li::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: #f18930;
+  transition-duration: 0.5s;
+}
+.social-icons {
+  text-align: center;
+  padding: 0;
+}
+.social-icons li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+.social-icons i {
+  color: white;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #f18930;
+}
+.social-icons i:hover {
+  color: #f18930;
+}
+.bottom-bar {
+  background: #020826;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.bottom-bar p {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+body {
+  background-color: #f9f4ef;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.prim_text {
+  color: #020826;
+  font-size: 900;
+  font-family: "Montserrat", sans-serif;
+}
+.page-heading{
+    text-align: center;
+    background-color: #8c7851;
+    color: black;
+    padding: 16px;
+    width: 98%;
+    font-weight: 900;
+    font-size: large;
+    margin-bottom: 10px;
+ }
+.heading4{
+  font-size: 50px;
+}
 
+
+/* Navigatin PART 1 */
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navpad {
+  padding: 0px 10px;
+  height: 20px;
+  width: 20px;
+}
+.navpadinput {
+  width: 200px;
+  height: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Naviation Part2 */
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: 900;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.searchparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navpadinput {
+  border: 2px solid black;
+}
+.btnse {
+  background-color: white;
+}
+.icon {
+  margin-top: 2px;
+  background-color: white;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Naviation Part3 */
+.nav3 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Montse";
+}
   </style>
   <body>
+    <!-- Header Content 0-->
+  <header>
+    <div class="page-heading">
+        Freedom Sale: Up to 70% OFF|<span style="color: red">&nbsp;Shop Now.</span>
+    </div>
+</header>
+
+  <!-- Navigatin PART 1 -->
+  <nav class="nav1 prim_text">
+    <div>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/help.png"
+          height="15px"
+          alt="help"
+        /><span class="prim_text">Help</span>
+      </a>
+
+      <a href="#" class="navpad">
+        <imgp
+          src="./../images/homepage_images/trackorder (1).png"
+          height="15px"
+          alt="help"
+        /><span class="prim_text">Track Order</span>
+      </a>
+    </div>
+
+    <div>
+      <a href="#" class="navpad prim_text">Find a Store</a>
+      <a href="#" class="navpad prim_text">Bulk Orders</a>
+      <a href="#" class="navpad prim_text">Gift Cards</a>
+      <a href="#" class="navpad prim_text">UL Services</a>
+    </div>
+  </nav>
+  <hr />
+
+  <!-- Naviation Part2 -->
+
+  <nav class="nav2">
+    <div>
+      <img
+        src="./../images/homepage_images/frame (1).png"
+        alt="img"
+        class="navpad"
+      />
+      <span class="pacifico-regular">Decor den</span>
+    </div>
+
+    <div class="searchparent">
+      <form action="https://www.google.com/search?">
+        <input
+          type="text"
+          id="search"
+          name="q"
+          placeholder="Search"
+          required
+          class="navpadinput"
+        />
+        <label for="search">
+          <button class="btnse">
+            <img
+              src="./../images/homepage_images/search.png"
+              height="14px"
+              alt="search"
+              class="icon"
+            />
+          </button>
+        </label>
+      </form>
+    </div>
+
+    <div>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/track.png"
+          height="25px"
+          alt="help"
+        />
+      </a>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/user.png"
+          height="25px"
+          alt="help"
+        />
+      </a>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/add-to-favorites.png"
+          height="25px"
+          alt="help"
+        />
+      </a>
+      <a href="#" class="navpad">
+        <img
+          src="./../images/homepage_images/cart.png"
+          height="25px"
+          alt="help"
+        />
+      </a>
+    </div>
+  </nav>
+  <hr />
+
+  <!-- Naviation Part3 -->
+
+  <nav class="nav3">
+    <div>
+      <a href="./index.html" class="navpad prim_text"><b>Home</b></a>
+      <a href="#" class="navpad prim_text"><b>Deal Zone</b></a>
+      <a href="./pages/trending.html" class="navpad prim_text"
+        ><b>Trending</b></a
+      >
+      <a href="#" class="navpad prim_text"><b>Storage Furniture</b></a>
+      <a href="./pages/study.html" class="navpad prim_text"><b>Study</b></a>
+      <a href="#" class="navpad prim_text"><b>Bedroom & Mattresses</b></a>
+      <a href="#" class="navpad prim_text"><b>Dining</b></a>
+      <a href="#" class="navpad prim_text"><b>Living</b></a>
+    </div>
+  </nav>
+  <hr />
     <nav>
       <a href="study.html"><img src="../images/back-button.png" height="30px"></a>
   </nav>
     <header>
-      <h1 class="center">Urbanfry Home Kim Sensory Kids Table</h1><br><br>
-    
-      <h2 class="center heading3">Buy study room furniture online that will create an attractive and enjoyable environment in the claassroomby its detailed designs, styles and sizes</h2>
+      <h1 class="center">A large library with a large table and chairs and a bookcase with a bookcase</h1><br><br>
+  
+      <h2 class="center">Buy study room furniture online that will create an attractive and enjoyable environment in the house by its detailed designs, styles and sizes</h2>
       
     </header>
-
+  
     <section class="all-furniture">
       <h3 class="heading1">all Furniture</h3>
       <div class="all-furniture-container">
         <div class="all-furniture-card">
-            <img src="./../images/colorful classroom learner.jpg" alt="image">
-            <p>A Colorful and Playful Classroom for Learners</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>50,999.00/-<br>  
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
-        </div>
-        <div class="all-furniture-card">
-            <img src="./../images/classroom chairs.jpg" height="120" alt="image">
-            <p>A classroom and wall above the desks and chairs </p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <b> price:</b>67,999.00/-<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
-        </div>
-        <div class="all-furniture-card">
-            <img src="./../images/room33.jpg" alt="image">
-            <p>table with a toy house </p><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>100,999.00/-<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">by now</button></a>
-        </div>
-        <div class="all-furniture-card">
-            <img src="./../images/playful furniture.avif" alt="image">
-            <p>Colorful Playful Furniture</p><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <b> price:</b>89,999.00/-<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./study.html"><button class="btn">buy now</button></a>
-        </div>
-        <div class="all-furniture-card">
-            <img src="./../images/room1.jpg" alt="image">
-            <p>classroom with many desk</p><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> prices:</b>89,999.00/-<br>
+            <img src="./../images/modern library cafe.jpg" alt="image">
+            <p>Modern Bookshop library</p><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>50,999.00/-<br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
         </div>
         <div class="all-furniture-card">
-            <img src="./../images/room with table.jpg" alt="image">
-            <p>room with tables and chairs</p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>price:</b>98,999.00/-<br><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
+            <img src="./../images/office with leatherbound book.jpg" height="120" alt="image">
+            <p>Office with Leatherbound Books </p> <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>67,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
         </div>
+        <div class="all-furniture-card">
+            <img src="./../images/classroom chairs.jpg" alt="image">
+            <p> A classroom and wall abave the deske and chairs</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>price:</b>34,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">by now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/laibrary 123.jpg" alt="image">
+            <p>Modern wooden office library</p><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <b> price:</b>89,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/libb.jpg" alt="image">
+            <p>coffee table, and a large bookcase</p><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <b> prices:</b>89,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="./outdoor.html"><button class="btn">buy now</button></a>
+        </div>
+        <div class="all-furniture-card">
+            <img src="./../images/libray with table and chairs into book.jpg" alt="image">
+            <p> library with tables and chairs</p><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <b> price:</b>98,999.00/-<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="./../pages/contctus.html"><button class="btn">buy now</button></a>
+        </div>
+        
+      
       </div>
     </section>
-  </body>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p>Email:Info@example.com</p>
+          <p>Phone:+121 56556 565556</p>
+          <p>Address:Your Address 123 street</p>
+        </div>
+        <div class="footer-content">
+          <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Signup</a></li>
+            <li><a href="">Trending</a></li>
+            <li><a href="">Deal Zone</a></li>
+            <li><a href="">study room</a></li>
+            <li><a href="">storage furniture</a></li>
+            <li><a href="">Bedroom & mattresses</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <p>&copy; 2024 Decor Den. All rights reserved</p>
+      </div>
+    </footer>
+    </body>
 </html>
+    
+
+
+ 
