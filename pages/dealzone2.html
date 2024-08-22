@@ -17,12 +17,7 @@
      background-color: #f9f4ef;
      width: 100%;
     }
-    .div4{
-      margin-top: 5px;
-      display: block;
-      height: 10px;
-      margin-left: 15px;
-    }
+   
     .div1{
      height: 500px;
      width: 650px;
@@ -51,6 +46,7 @@
      border-radius:5px ;
      margin-bottom: 2px;
      background-color: #f9f4ef;
+     
     }
     .btn:hover{
       box-shadow: 1px 1px 5px 2px black  ;
@@ -77,13 +73,321 @@
        margin: 20px;
 
     }
+     /* <!-- Header Content 0 -->  */
+  .page-heading {
+    text-align: center;
+    background-color: #8c7851;
+    color: black;
+    padding: 16px;
+    width: 98%;
+    font-weight: 900;
+    font-size: larger;
+    margin-bottom: 10px;
+  }
+     /* Navigatin PART 1 */
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navpad {
+    padding: 0px 10px;
+    height: 20px;
+    width: 20px;
+}
+.navpadinput {
+    width: 200px;
+    height: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+/* Naviation Part2 */
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: 900;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+.searchparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navpadinput {
+    border: 2px solid black;
+}
+.btnse {
+    background-color: white;
+}
+.icon {
+    margin-top: 2px;
+    background-color: white;
+}
+
+.pacifico-regular {
+   font-family: "Pacifico", cursive;
+   font-weight: 400;
+   font-style: normal;
+}
+
+/* Naviation Part3 */
+.nav3 {
+   display: flex;
+   justify-content: space-around;
+   font-size: 18px;
+   font-weight: 600;
+   font-family: "Montserrat", sans-serif;
+}
+
+.img1{
+   margin: auto;
+   display: block;
+   height: 500px;
+}
+.img1:hover{
+   transform: translateY(2px) scale(0.98);
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.p1 {
+   height:auto;
+   text-align: center;
+   font-size: 14px;
+   font-family: "Montserrat", sans-serif;
+} 
+.btn-container {
+   display: flex;
+   justify-content: center;
+}
+.prim_text {
+   color: #020826;
+   font-size: 900;
+   font-family: "Montserrat", sans-serif;
+}
+footer {
+  background: #8c7851;
+  padding-top: 50px;
+  color: white;
+}
+.container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.footer-content {
+  width: 33.3%;
+}
+h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.footer-content p {
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+.footer-content ul {
+  text-align: center;
+}
+.list {
+  display: block;
+  padding: 5px 60px 0px 115px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.list li {
+  width: auto;
+  text-align: initial;
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+}
+.list li::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: #f18930;
+  transition-duration: 0.5s;
+}
+.social-icons {
+  text-align: center;
+  padding: 0;
+}
+.social-icons li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+.social-icons i {
+  color: white;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #f18930;
+}
+.social-icons i:hover {
+  color: #f18930;
+}
+.bottom-bar {
+  background: #020826;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.bottom-bar p {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+
+   
 
     </style>
 </head>
 <body>
-  <div class="div4">
-    <a href="./dealzone.html"> <img src="./../images/back-button.png" height="25px" width="25px"></a>
-     </div>
+  <header>
+    <div class="page-heading">
+        Freedom Sale: Up to 70% OFF|<span style="color: red">&nbsp;Shop Now.</span>
+    </div>
+</header>
+
+<!-- Navigatin PART 1 -->
+<nav class="nav1 prim_text">
+<div>
+  <a href="#" class="navpad">
+    <img
+      src="./../images/homepage_images/help.png"
+      height="15px"
+      alt="help"
+    /><span class="prim_text">Help</span>
+  </a>
+
+  <a href="#" class="navpad">
+    <imgp
+      src="./../images/homepage_images/trackorder (1).png"
+      height="15px"
+      alt="help"
+    /><span class="prim_text">Track Order</span>
+  </a>
+</div>
+
+<div>
+  <a href="#" class="navpad prim_text">Find a Store</a>
+  <a href="#" class="navpad prim_text">Bulk Orders</a>
+  <a href="#" class="navpad prim_text">Gift Cards</a>
+  <a href="#" class="navpad prim_text">UL Services</a>
+</div>
+</nav>
+<hr />
+
+<!-- Naviation Part2 -->
+
+<nav class="nav2">
+<div>
+  <img
+    src="./../images/homepage_images/frame (1).png"
+    alt="img"
+    class="navpad"
+  />
+  <span class="pacifico-regular">Decor den</span>
+</div>
+
+<div class="searchparent">
+  <form action="https://www.google.com/search?">
+    <input
+      type="text"
+      id="search"
+      name="q"
+      placeholder="Search"
+      required
+      class="navpadinput"
+    />
+    <label for="search">
+      <button class="btnse">
+        <img
+          src="./../images/homepage_images/search.png"
+          height="14px"
+          alt="search"
+          class="icon"
+        />
+      </button>
+    </label>
+  </form>
+</div>
+
+<div>
+  <a href="#" class="navpad">
+    <img
+      src="./../images/homepage_images/track.png"
+      height="25px"
+      alt="help"
+    />
+  </a>
+  <a href="#" class="navpad">
+    <img
+      src="./../images/homepage_images/user.png"
+      height="25px"
+      alt="help"
+    />
+  </a>
+  <a href="#" class="navpad">
+    <img
+      src="./../images/homepage_images/add-to-favorites.png"
+      height="25px"
+      alt="help"
+    />
+  </a>
+  <a href="#" class="navpad">
+    <img
+      src="./../images/homepage_images/cart.png"
+      height="25px"
+      alt="help"
+    />
+  </a>
+</div>
+</nav>
+<hr />
+
+<!-- Naviation Part3 -->
+
+<nav class="nav3">
+<div>
+  <a href="./../index.html" class="navpad prim_text"><b>Home</b></a>
+  <a href="./../pages/aboutus.html" class="navpad prim_text"><b>About us</b></a>
+
+  <a href="./../pages/dealzone.html" class="navpad prim_text"><b>Deal Zone</b></a>
+  <a href="./../pages/trending.html" class="navpad prim_text"><b>Trending</b></a>
+  <a href="./../pages/Storage-Furniture.html" class="navpad prim_text"><b>Storage Furniture</b></a>
+  <a href="./../pages/study.html" class="navpad prim_text"><b>Study</b></a>
+  <a href="./../pages/bedroom-mattress.html" class="navpad prim_text"><b>Bedroom & Mattresses</b></a>
+  <a href="./../signup.html" class="navpad prim_text"><b>Sign up</b></a>
+
+   </div>
+</nav>
+ <hr />
+
+ 
     <div class="div1">
 
         <p><b>Oribi Solid Wood Dining Bench in Teak Finish
@@ -108,9 +412,9 @@
          <small>*All discounts are dynamic can be changed at any time</small><br><br>
         <span>Finish:</span><br>
          <br>
-         <button class="btn">Mahogany</button>
-         <button class="btn">Teak</button><br>
-         <button class="btn">Tan leatherette</button>
+         <button class="btn"><a href="#1" style="color: #8c7851;">Mahogany</a></button>
+         <button class="btn"><a href="#2" style="color: #8c7851;">Teak</a></button><br>
+         <button class="btn"><a href="#3" style="color: #8c7851;">Tan leatherette</a></button>
          <br>
          <p> Color:</p>
          <button class="btn">Wheat Brown</button>
@@ -126,11 +430,54 @@
           </div>
      
           <div class="div3">
-            <img class="product-img"  src="./../images/dealzone_images/v9.jpg">
-            <img  class="product-img" src="./../images/dealzone_images/v10.jpg">
-            <img class="product-img" src="./../images/dealzone_images/v11.jpg">
+            <img id="1" class="product-img"  src="./../images/dealzone_images/v9.jpg">
+            <img id="2" class="product-img" src="./../images/dealzone_images/v10.jpg">
+            <img id="3" class="product-img" src="./../images/dealzone_images/v11.jpg">
             </div>
-      
+
+            <footer>
+              <div class="container">
+                <div class="footer-content">
+                  <h3>Contact Us</h3>
+                  <p>Email:Info@example.com</p>
+                  <p>Phone:+121 56556 565556</p>
+                  <p>Address:Your Address 123 street</p>
+                </div>
+                <div class="footer-content">
+                  <h3>Quick Links</h3>
+                  <ul class="list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Signup</a></li>
+                    <li><a href="">Trending</a></li>
+                    <li><a href="">Deal Zone</a></li>
+                    <li><a href="">study room</a></li>
+                    <li><a href="">storage furniture</a></li>
+                    <li><a href="">Bedroom & mattresses</a></li>
+                  </ul>
+                </div>
+                <div class="footer-content">
+                  <h3>Follow Us</h3>
+                  <ul class="social-icons">
+                    <li>
+                      <a href=""><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fab fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bottom-bar">
+                <p>&copy; 2024 Decor Den. All rights reserved</p>
+              </div>
+     </footer>
     
 
 </body>
