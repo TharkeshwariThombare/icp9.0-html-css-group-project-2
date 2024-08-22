@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
 .page-heading {
     text-align: center;
     background-color: #8c7851;
@@ -8,7 +9,8 @@
     font-weight: 900;
     font-size: larger;
     margin-bottom: 10px;
-  }
+}
+
 body {
     background-color: #f9f4ef;
     margin: 0px;
@@ -204,7 +206,7 @@ body {
     border: none;
     cursor: pointer;
     font-size: 30px;
-    background-color: #eaddcf;
+    background-color:#f9f4ef;
 }
 
 .text-center {
@@ -233,34 +235,41 @@ body {
     text-align: center;
     align-items: center;
 }
+
 footer {
     background: #8c7851;
     padding-top: 50px;
     color: white;
-  }
-  .container {
+}
+
+.container {
     width: 1140px;
     margin: auto;
     display: flex;
     justify-content: center;
-  }
-  .footer-content {
+}
+
+.footer-content {
     width: 33.3%;
-  }
-  h3 {
+}
+
+h3 {
     font-size: 28px;
     margin-bottom: 15px;
     text-align: center;
-  }
-  .footer-content p {
+}
+
+.footer-content p {
     width: 190px;
     margin: auto;
     padding: 7px;
-  }
-  .footer-content ul {
+}
+
+.footer-content ul {
     text-align: center;
-  }
-  .list {
+}
+
+.list {
     display: block;
     padding: 5px 60px 0px 115px;
     height: 130px;
@@ -268,15 +277,17 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
-  .list li {
+}
+
+.list li {
     width: auto;
     text-align: initial;
     list-style-type: none;
     padding: 7px;
     position: relative;
-  }
-  .list li::before {
+}
+
+.list li::before {
     content: "";
     position: absolute;
     transform: translate(-50%, -50%);
@@ -286,40 +297,47 @@ footer {
     height: 2px;
     background: #f18930;
     transition-duration: 0.5s;
-  }
-  .social-icons {
+}
+
+.social-icons {
     text-align: center;
     padding: 0;
-  }
-  .social-icons li {
+}
+
+.social-icons li {
     display: inline-block;
     text-align: center;
     padding: 5px;
-  }
-  .social-icons i {
+}
+
+.social-icons i {
     color: white;
     font-size: 25px;
-  }
-  a {
+}
+
+a {
     text-decoration: none;
     color: white;
-  }
-  a:hover {
+}
+
+a:hover {
     color: #f18930;
-  }
-  .social-icons i:hover {
+}
+
+.social-icons i:hover {
     color: #f18930;
-  }
-  .bottom-bar {
+}
+
+.bottom-bar {
     background: #020826;
     text-align: center;
     padding: 10px 0;
     margin-top: 50px;
-  }
-  .bottom-bar p {
+}
+
+.bottom-bar p {
     color: white;
     margin: 0;
     font-size: 16px;
     padding: 7px;
-  }
-  
+}
